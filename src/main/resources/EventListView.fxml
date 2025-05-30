@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.EventListController">
+  <top>
+    <Label text="Event Planner"
+           style="-fx-font-size: 24px; -fx-padding: 10px;"
+           BorderPane.alignment="CENTER"/>
+  </top>
+
+  <center>
+    <VBox spacing="10" style="-fx-background-color: linear-gradient(to bottom, #6dd5ed, #2193b0);">
+      <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+      </padding>
+      <ListView fx:id="eventListView" VBox.vgrow="ALWAYS"/>
+    </VBox>
+  </center>
+
+  <bottom>
+    <HBox spacing="10">
+      <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+      </padding>
+      <Button text="Add New Event" onAction="#handleShowAddEvent"/>
+    </HBox>
+  </bottom>
+</BorderPane>

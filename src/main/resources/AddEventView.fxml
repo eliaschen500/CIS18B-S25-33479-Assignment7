@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.AddEventController"
+      spacing="12"
+      style="-fx-background-color: linear-gradient(to top, #c9ffbf, #ffafbd);">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Add Event" style="-fx-font-size: 18px;"/>
+
+    <TextField fx:id="titleField" promptText="Event Title"/>
+    <DatePicker fx:id="datePicker"/>
+    <TextArea fx:id="descriptionArea" promptText="Description" prefRowCount="4"/>
+
+    <HBox spacing="10">
+        <Button text="Add Event" onAction="#handleAddEvent"/>
+        <Button text="Back" onAction="#handleBack"/>
+    </HBox>
+</VBox>
