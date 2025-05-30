@@ -79,8 +79,8 @@ src/
 │       ├── AddEventView.fxml
 │       └── EventListView.fxml
 screenshots/
-├── ScreenShot.png(add
-└── ScreenShot.png
+├── Screenshot 2025-05-30 at 12.27.21.png(Add event)
+└── Screenshot 2025-05-30 at 12.27.50.png(Events list)
 
 ## Author
 Zhengxing Chen
