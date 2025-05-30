@@ -68,6 +68,19 @@ The application uses JavaFX property classes to enable real-time data binding be
 
 The `Event` class encapsulates these properties, making them accessible via standard getter, setter, and property accessor methods. This design allows FXML elements to bind directly to these properties, ensuring the interface reflects underlying data changes automatically.
 
+## Project Structure
+src/
+├── main/
+│   ├── java/
+│   │   ├── app/
+│   │   ├── controller/
+│   │   └── model/
+│   └── resources/
+│       ├── AddEventView.fxml
+│       └── EventListView.fxml
+screenshots/
+├── ScreenShot.png(add
+└── ScreenShot.png
 
 ## Author
 Zhengxing Chen
